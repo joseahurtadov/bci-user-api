@@ -1,0 +1,24 @@
+# Platform configs
+spring:
+  cloud:
+    gcp:
+      project-id: 'c-irdghr-shr-5aca'
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  datasource:
+    driverClassName: org.h2.Driver
+    url: jdbc:h2:./data/client
+    type: com.zaxxer.hikari.HikariDataSource
+    username: sa
+    password: password
+  h2:
+    console:
+      enabled: true
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] ${hostName} %-5level %logger{36}.%M \\(%line\\) - %msg%n"
+  level.org.apache.http: INFO
+  level:
+    com.bci.technicalchalenge.pe: DEBUG
+    org.springframework.http.converter.json: INFO
