@@ -1,4 +1,4 @@
-# technical-chalenge-be
+# technical-challenge-be
 
 - Aplicación basada en Spring Boot para guardar información de usuarios y datos telefonicos
 
