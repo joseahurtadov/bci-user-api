@@ -16,4 +16,4 @@
 
 # Diagrama de solución
 
-![Diagrama de componentes](https://github.com/joseahurtadov/bci-user-api)
+![Diagrama de componentes](https://github.com/joseahurtadov/bci-user-api/blob/main/diagrama-componentes.png?raw=true)
